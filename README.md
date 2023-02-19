@@ -328,7 +328,7 @@ Se aplican a los datos de tipo numérico (luego veremos que algunos se pueden so
 5.0 // 2 # Real / Entero =?
 ``` 
  + **Módulo:** Usa el símbolo (%) y retorna el residuo de la divisón entre dos números.
-$$m \, \text{mod} \, n = r \Longrightarrow \frac{m}{n}=c+r$$
+$$m \ \text{mod} \ n = r \Longrightarrow \frac{m}{n}=c+r$$
  ```python
 # modulo entre dos números
 10 % 2 # Entero % Entero = ?
@@ -380,7 +380,7 @@ x %= 4 # Equivalente a x = x % 4
 ``` 
 
 **Ejemplo:** Calcular la fuerza de atracción entre la tierra y un cuerpo sobre su superficie. 
-$$\text{Ley de la gravitación universal:} \ G\,\frac{m_1 \cdot m_2}{r^2}$$
+$$\text{Ley de la gravitación universal:} \ G\\frac{m_1 \cdot m_2}{r^2}$$
 
 ```python
 G : float = 6.67384e-11 # Constante de Cavendish [Nm^2/kg^2]
@@ -413,7 +413,7 @@ alpha == beta
  ```
 
  + **Diferencia:** Evalua si dos variables son diferentes. Se usa el simbolo (!=).
- $$\alpha\, != \beta \Longleftrightarrow \alpha \neq \beta$$
+ $$\alpha\ != \beta \Longleftrightarrow \alpha \neq \beta$$
  ```python
 alpha : int = 10
 beta : int = 11 
@@ -421,7 +421,7 @@ alpha != beta
  ```
 
  + **Mayor estricto:** Evalua si la variable de la izquierda es mayor que la de la derecha. Se usa el simbolo (>).
- $$\alpha\, > \beta \Longleftrightarrow \alpha > \beta$$
+ $$\alpha\ > \beta \Longleftrightarrow \alpha > \beta$$
  ```python
 alpha : int = 10
 beta : int = 11 
@@ -429,7 +429,7 @@ alpha > beta
  ```
 
  + **Menor estricto:**  Evalua si la variable de la izquierda es menor que la de la derecha. Se usa el simbolo (<).
- $$\alpha\, < \beta \Longleftrightarrow \alpha < \beta$$
+ $$\alpha\ < \beta \Longleftrightarrow \alpha < \beta$$
  ```python
 alpha : int = 10
 beta : int = 11 
@@ -437,7 +437,7 @@ alpha < beta
  ```
 
   + **Mayor igual:**  Evalua si la variable de la izquierda es mayor o igual  que la de la derecha. Se usa el simbolo (>=).
- $$\alpha\, >= \beta \Longleftrightarrow \alpha \geq \beta$$
+ $$\alpha\ >= \beta \Longleftrightarrow \alpha \geq \beta$$
  ```python
 alpha : int = 10
 beta : int = 10 
@@ -445,7 +445,7 @@ alpha >= beta
  ```
 
   + **Menor igual:** Evalua si la variable de la izquierda es menor o igual  que la de la derecha. Se usa el simbolo (<=).
- $$\alpha\, <= \beta \Longleftrightarrow \alpha \leq \beta$$
+ $$\alpha\ <= \beta \Longleftrightarrow \alpha \leq \beta$$
  ```python
 alpha : int = 9
 beta : int = 10 
