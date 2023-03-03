@@ -380,7 +380,7 @@ x %= 4 # Equivalente a x = x % 4
 ``` 
 
 **Ejemplo:** Calcular la fuerza de atracción entre la tierra y un cuerpo sobre su superficie. 
-$$\text{Ley de la gravitación universal:} \ G\\frac{m_1 \cdot m_2}{r^2}$$
+$$\text{Ley de la gravitación universal:} \ G=\frac{m_1 \cdot m_2}{r^2}$$
 
 ```python
 G : float = 6.67384e-11 # Constante de Cavendish [Nm^2/kg^2]
