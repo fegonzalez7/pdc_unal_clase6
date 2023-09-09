@@ -67,7 +67,7 @@ Formas de escribir idenfificadores en Python:
 </p></details><br>
 
 ## Casing
-Es el uso de mayusculas y minusculas (así como otros caracteres). Python es *sensitive case*, lo que significa que distingue entre mayúculas y minúculas., *e.g.* No es o mismo variable a VARIABLE.
+Es el uso de mayusculas y minusculas (así como otros caracteres). Python es *sensitive case*, lo que significa que distingue entre mayúsculas y minúsculas., *e.g.* No es o mismo variable a VARIABLE.
 
 ### Lowercase
 Es el uso exclusivo de mínusculas.
@@ -76,7 +76,7 @@ Es el uso exclusivo de mínusculas.
 Es el uso exclusivo de mayusculas.
 
 ### Camelcase
-Consiste en la capitalización de la inicial de cada palabra compuesta excepto la inicial. El cambio entre minúculas y mayúsculas se asemeja a las jorobas de un camello. 
+Consiste en la capitalización de la inicial de cada palabra compuesta excepto la inicial. El cambio entre minúsculas y mayúsculas se asemeja a las jorobas de un camello. 
 
 Ejemplos: 
  + soyUnNumero
@@ -128,7 +128,7 @@ el nombre y el tipo de dato.
 ### Tipado estático vs tipado dinámico
 Ya que python es un lenguaje interpretado soporta tipado dinámico, esto es, para que un programa funcione *no* es necesario especificar el tipo de la variable, porque en tiempo de ejecución se va cambiando el espacio en memoria necesario para alojar la información. 
 
-Para el programador esto se puede considerar algo *sencillo*, ya que solo decalra variables y el interprete hace el resto, sin embargo esto es una *mala práctica*. Por lectura, por eficicencia, por elegancia, es mejor hacer tipado estático, es decir especificar el tipo de variable, para reservar el espacio adecuado en memoria. La mayoría de lenguajes compilados usa tipado estático.
+Para el programador esto se puede considerar algo *sencillo*, ya que solo declara variables y el interprete hace el resto, sin embargo esto es una *mala práctica*. Por lectura, por eficiencia, por elegancia, es mejor hacer tipado estático, es decir especificar el tipo de variable, para reservar el espacio adecuado en memoria. La mayoría de lenguajes compilados usa tipado estático.
 
 **Pro tip:** Una buena práctica de programación∗ es asignarle el nombre a una variable de tal manera que indique por un lado el papel que desempeña dicha variable en el algoritmo y por otro los posibles valores que almacena.
 
@@ -162,7 +162,7 @@ x : int = 10
 
 **Pro tip:** Para poner comentarios en el código de python se utiliza # (asterisco), todo lo que está comentado no será tenido en cuenta en el programa. Comentar es **FUNDAMENTAL** para entender el code. 
 
-En Python no hay una distinción tan clara de la cantidad de espacio que usa un entero, en lenguajes como C se tienen `int8`, `uint16`, `long`, donde se especifican la cantidad de bits para almacenar la varible. Si se queire consultar la cantidad de bits y la representación binaria se puede usar.
+En Python no hay una distinción tan clara de la cantidad de espacio que usa un entero, en lenguajes como C se tienen `int8`, `uint16`, `long`, donde se especifican la cantidad de bits para almacenar la variable. Si se quiere consultar la cantidad de bits y la representación binaria se puede usar.
 
 ```python
 # Declarar e inicializar variable
@@ -205,7 +205,7 @@ Plank = 6.62606896E-34
 ```
 
 ### Constantes
-A diferencia de C, Java o Javascript, en Python no hay constantes perse, se suele declarar una variable global en *snake case* maúsculas para indicar que se trata de un valor persistente.
+A diferencia de C, Java o Javascript, en Python no hay constantes perse, se suele declarar una variable global en *snake case* mayúsculas para indicar que se trata de un valor persistente.
 
 ```python
 MAIN_VALUE = 10
@@ -288,7 +288,7 @@ Una **cadena de caracteres** *str* es una secuencia de cero o más caracteres. U
 **Pro tip:** Diferencia entre "" y '', en general se utiliza doble comilla en caso que el string contenga comillas sencillas.
 
 ## Operadores
-Es la manera de establer relaciones (operaciones) entre los tipos de variables.
+Es la manera de establecer relaciones (operaciones) entre los tipos de variables.
 
  + **Operadores infijos:** Se aplican entre los operandos.
  + **Operadores prefijos:** Se aplica antes del operando.
@@ -524,7 +524,7 @@ True and False
 True or False
  ```
 
-**Pro tip:** Los que hayan programado en otros lenguajes sabran que el simbolo | (vertical line) representa la operación OR, pero en Python es a un nivel binario, esto es si se aplica con valores numéricos, estos se transformarán a bits y se aplicará la operación.
+**Pro tip:** Los que hayan programado en otros lenguajes sabrán que el simbolo | (vertical line) representa la operación OR, pero en Python es a un nivel binario, esto es si se aplica con valores numéricos, estos se transformarán a bits y se aplicará la operación.
 
   + **Negación/NOT:** Permite evaluar la operación *not*. Se utiliza la palabra reservada *not*.
 <table cellspacing="1" bgcolor="">
@@ -558,11 +558,11 @@ not False
 ```python
 # Lo que está dentro del rectangulo
 a > -2 and a <= 3.5
-b >= -1.5 and b < 1.5
-# Lo que está fuera del ciculo
+b >= -1.25 and b < 1.5
+# Lo que está fuera del circulo
 a * a + b * b >= 1
 # Uniendo los dos conjuntos
-(a > -2 and a <= 3.5 and b >= -1.5 and b < 1.5) and (a * a + b * b >= 1)
+(a > -2 and a <= 3.5 and b >= -1.25 and b < 1.5) and (a * a + b * b >= 1)
 ```
 
 ### Precedencia de opearaciones
@@ -613,7 +613,7 @@ de Python, la prioridad más alta es la 1 y la más baja es la 9. Si dos operaci
 </table>
 
 **Ejemplos:**
-1. Resolver la experesión `42 // 6 + 7 * 3 - 39` y determinar el orden de cada operación.
+1. Resolver la expresión `42 // 6 + 7 * 3 - 39` y determinar el orden de cada operación.
 
 ```python
 42 // 6 + 7 * 3 - 39
@@ -628,7 +628,7 @@ de Python, la prioridad más alta es la 1 y la más baja es la 9. Si dos operaci
 7 + 21 - 39  # Resultado -11
 ```
 
-2. Resolver la experesión `12.0 * 3 - -4.0 + 8 // 2 % 3` y determinar el orden de cada operación.
+2. Resolver la expresión `12.0 * 3 - -4.0 + 8 // 2 % 3` y determinar el orden de cada operación.
 
 ```python
 12.0 * 3 - -4.0 + 8 // 2 % 3
@@ -648,7 +648,7 @@ de Python, la prioridad más alta es la 1 y la más baja es la 9. Si dos operaci
 36.0 + 4.0 + 1 # Resultado 41.0
 ```
 
-3. Resolver la experesión `(-2 + 5 % 3 * 4) // 4 + 2` y determinar el orden de cada operación.
+3. Resolver la expresión `(-2 + 5 % 3 * 4) // 4 + 2` y determinar el orden de cada operación.
 
 ```python
 (-2 + 5 % 3 * 4) // 4 + 2 # Resultado 3.0
