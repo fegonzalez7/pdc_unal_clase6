@@ -549,7 +549,7 @@ not False
 
 **Pro tip:** Los que hayan programado en otros lenguajes sabran que el simbolo ~ (virgulilla) representa la operación NOT, pero en Python es a un nivel binario, esto es si se aplica con valores numéricos, estos se transformarán a bits y se aplicará la operación.
 
-**Ejemplo:** Establecer la relación lógica que permita determinar si un una pareja ordenada `(a,b)` pertenece al conjunto `[-2,3.5) x (-1.25,1.5] U {(x,y):x^2+y^2 <= 1}`.
+**Ejemplo:** Establecer la relación lógica que permita determinar si un una pareja ordenada `(a,b)` pertenece al conjunto `(-2,3.5] x [-1.25,1.5) U {(x,y):x^2+y^2 <= 1}`.
 <div align='center'>
 <figure> <img src="https://i.postimg.cc/P5gt8gwk/image.png" alt="" width="500" height="auto"/></br>
 <figcaption><b></b></figcaption></figure>
