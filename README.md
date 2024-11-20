@@ -1,4 +1,30 @@
 # Programación de Computadores - UNAL
+
+## Tabla de Contenidos
+  - [Identificadores y Variables](#identificadores-variables-y-operadores)
+    - [Formas de Escribir Identificadores](#formas-de-escribir-idenfificadores-en-python)
+    - [Ejemplos de Identificadores](#ejemplos-de-identificadores-válidos)
+  - [Convenciones de Nomenclatura](#casing)
+    - [Lowercase](#lowercase)
+    - [Uppercase](#uppercase)
+    - [Camelcase](#camelcase)
+    - [Snakecase](#snakecase)
+  - [Variables](#variables)
+    - [Variables en Python](#variables-en-python)
+    - [Tipado en Python](#tipado-estático-vs-tipado-dinámico)
+  - [Tipos de Datos](#tipos-de-datos)
+    - [Enteros](#enteros)
+    - [Flotantes](#flotantes)
+    - [Constantes](#constantes)
+    - [Booleanos](#booleanos)
+    - [Caracteres y Strings](#caracteres-y-cadenas-de-caracteres)
+  - [Operadores](#operadores)
+    - [Operadores Aritméticos](#operadores-aritméticos)
+    - [Operadores de Asignación](#operadores-de-asignación)
+    - [Operadores Lógicos](#operadores-lógicos)
+    - [Operadores Relacionales](#operadores-relacionales)
+    - [Precedencia de Operaciones](#precedencia-de-opearaciones)
+
 ## Identificadores, variables y operadores
 <table cellspacing="1" bgcolor="">
 	<tr bgcolor="#252582">
@@ -197,11 +223,11 @@ e = 2.7182818284
 gamma : float = 0.577215664901
 phi = +1.61803398874989
 X = -1.0
-const_Boltzmann = 1.3806488E-23
+const_Boltzmann = 1.3806488e-23
 Luz : float = 2.998e+8
 Avogadro = +6.02214129e+23
 G : float = 6.67384e-11
-Plank = 6.62606896E-34
+Plank = 6.62606896e-34
 ```
 
 ### Constantes
@@ -380,7 +406,7 @@ x %= 4 # Equivalente a x = x % 4
 ``` 
 
 **Ejemplo:** Calcular la fuerza de atracción entre la tierra y un cuerpo sobre su superficie. 
-$$\text{Ley de la gravitación universal:} \ G=\frac{m_1 \cdot m_2}{r^2}$$
+$$\text{Ley de la gravitación universal:} \ =G\frac{m_1 \cdot m_2}{r^2}$$
 
 ```python
 G : float = 6.67384e-11 # Constante de Cavendish [Nm^2/kg^2]
@@ -654,3 +680,12 @@ de Python, la prioridad más alta es la 1 y la más baja es la 9. Si dos operaci
 (-2 + 5 % 3 * 4) // 4 + 2 # Resultado 3.0
 ```
 
+-----
+
+### Información adicional
+- [Python Documentation](https://docs.python.org/3/)
+
+### Guías de Estilo y Buenas Prácticas
+- [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- [Convenciones de Nomenclatura](https://peps.python.org/pep-0008/#naming-conventions)
+- [Comentarios](https://peps.python.org/pep-0008/#comments)
