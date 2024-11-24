@@ -127,7 +127,7 @@ Ejemplos:
 
 Hay otra que se llama *kebab case*, así que revisen.
 
-**Entonces,** cúal usar?....les recomiendo *camelcase*, aunque *snakecase* es aceptable también.
+**Entonces,** cúal usar?....para Python **snake-case**.
 
 ## Variables
 <table cellspacing="1" bgcolor="">
@@ -689,3 +689,12 @@ de Python, la prioridad más alta es la 1 y la más baja es la 9. Si dos operaci
 - [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [Convenciones de Nomenclatura](https://peps.python.org/pep-0008/#naming-conventions)
 - [Comentarios](https://peps.python.org/pep-0008/#comments)
+
+------
+
+### Ejercicios recomendados:
+
+- [Operadores Aritmeticos](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)
+- [Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true)
+
+
